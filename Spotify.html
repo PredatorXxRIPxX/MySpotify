@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1b0e52345a.js" crossorigin="anonymous"></script>
+    <title>Spotify</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <i class="fa-brands fa-spotify fa-2x"></i>
+            <h1>Now Playing</h1>
+            <i class="fa-solid fa-gear fa-2x"></i>
+        </nav>
+        <div class="diskturn">
+            <div  id="disk"class="disk">
+            </div>
+            <div class="detail">
+                <h3 id="name_music"> Music name</h3>
+                <h4 id="name_art">artiste name</h4>
+            </div>
+        </div>
+        <div class="music">
+            <audio src="" id="main_audio"></audio>
+            <h5 id="current"></h5>
+            <div id="progres" class="pr">
+                <div id="bar" class="range"></div>
+            </div>
+            <h5 id="end"></h5>
+        </div>
+        <div class="sets">
+            <button id="repeat"><div id="icon" class="fa-solid fa-music"></div></button>
+            <button id="previous"><div class="icon"><i class="fa-solid fa-backward"></i></div></button>
+            <button id="play"><div class="icon"><i class="fa-solid fa-play"></i></div></button>
+            <button id="next"><div class="icon"><i class="fa-solid fa-forward"></i></div></button>
+            <button id="list"><div class="icon"><i class="fa-solid fa-list"></i></div></button>
+        </div>
+    </main>
+    <aside id="menu" class="menu">
+        <ul id="songs">
+            
+        </ul>
+    </aside>
+</body>
+</html>
+<script src="./Spotify.js"></script>
