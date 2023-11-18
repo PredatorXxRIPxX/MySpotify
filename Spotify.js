@@ -2,32 +2,32 @@ let allMusics=[
     {
         Artiste:'Cartoon',
         Music:'C U Again',
-        image:'./picturespotify/R.jpeg',
-        source:'Musicsmp3/Cartoon  C U Again feat Mikk Me Cartoon vs Futuristik VIP NCS Release.mp3',
+        image:'./R.jpeg',
+        source:'./Cartoon  C U Again feat Mikk Me Cartoon vs Futuristik VIP NCS Release.mp3',
     },
     {
         Artiste:'Pitpull',
         Music:'Timber',
-        image:'./picturespotify/R (2).jpeg',
-        source:'Musicsmp3/Pitbull  Timber Lyrics ft Keha.mp3',
+        image:'./R (2).jpeg',
+        source:'./Pitbull  Timber Lyrics ft Keha.mp3',
     },
     {
         Artiste:'Pitpull',
         Music:'Ole Ola',
-        image:'./picturespotify/R (2).jpeg',
-        source:'Musicsmp3/We Are One Ole Ola The Official 2014 FIFA World Cup Song Olodum Mix.mp3',
+        image:'./R (2).jpeg',
+        source:'./We Are One Ole Ola The Official 2014 FIFA World Cup Song Olodum Mix.mp3',
     },
     {
         Artiste:'Polo G',
         Music:'Heartless',
-        image:'./picturespotify/OIP.jpeg',
-        source:'Musicsmp3/Polo G  Heartless feat Mustard Official Video.mp3',
+        image:'./OIP.jpeg',
+        source:'./Polo G  Heartless feat Mustard Official Video.mp3',
     },
     {
         Artiste:'Lucenzo',
         Music:'Danza Kuduro',
-        image:`./picturespotify/R (1).jpeg`,
-        source:'Musicsmp3/don omar  danza kuduro sped up.mp3',
+        image:`./R (1).jpeg`,
+        source:'./don omar  danza kuduro sped up.mp3',
     },
 ];
 
